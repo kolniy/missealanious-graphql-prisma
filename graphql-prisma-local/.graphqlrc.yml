@@ -1,0 +1,10 @@
+projects:
+    prisma:
+        schema: http://localhost:4466
+        extensions:
+            codegen:
+                generates:
+                    ./src/generated/prisma.graphql
+                    plugins:
+                        - schema-ast
+   
